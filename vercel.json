@@ -1,0 +1,14 @@
+{
+    "builds": [
+        {
+            "src": "career.py",
+            "use": "@vercel/python"
+        }
+    ],
+    "routes": [
+        {
+            "src": "/(.*)",
+            "dest": "career.py"
+        }
+    ]
+} 
