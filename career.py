@@ -4,7 +4,6 @@ from pathlib import Path
 from langchain_groq import ChatGroq
 from langchain_core.prompts import ChatPromptTemplate
 from dotenv import load_dotenv
-import openai
 
 # Load environment variables
 load_dotenv()
@@ -49,12 +48,6 @@ st.markdown("""
     }
     </style>
 """, unsafe_allow_html=True)
-
-# Initialize Groq client
-groq_client = openai.OpenAI(
-    base_url="https://api.groq.com/openai/v1",
-    api_key=os.environ.get("GROQ_API_KEY"),
-)
 
 # Initialize LangChain Groq
 llm = ChatGroq(
@@ -149,7 +142,6 @@ def display_career_categories():
 def main():
     # Sidebar
     with st.sidebar:
-        st.image("https://img.icons8.com/fluency/96/career.png", width=100)
         st.title("Career Path Advisor")
         st.markdown("---")
         display_career_categories()
