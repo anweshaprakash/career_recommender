@@ -4,7 +4,7 @@ Welcome to the **Career Path Advisor**, an AI-powered Streamlit app designed to 
 
 🔗 **Live App**: [https://careerrecommender.streamlit.app/](https://careerrecommender.streamlit.app/)  
 🐙 **GitHub**: [github.com/anweshaprakash/career_recommender](https://github.com/anweshaprakash/career_recommender)  
-📽️ **Demo Video (Loom)**: _[Insert Loom Link Here]_
+📽️ **Demo Video (Loom)**: [https://www.loom.com/share/220f1cce01eb45e2b180b8901d365703?sid=853696fb-f1d6-4aa1-ad2f-f29487b3b80d]
 
 ---
 
